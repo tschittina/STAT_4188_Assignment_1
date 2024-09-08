@@ -11,7 +11,7 @@ but I have worked with some of the packages relevant to the field (pandas, matpl
 
 ## Tom Golway Quote
 
-### An issue with current...
+### "An issue with current..."
 
 I think this quote is saying that it is common for data scientists to<br>
 forget or misinterpret the context of the data they are working with.<br>
