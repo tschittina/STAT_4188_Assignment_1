@@ -8,10 +8,10 @@ encrypted_file.close()
 chars = list(encrypted_message)
 n = len(chars)
 
-for x in range(1, n//2, 2):
-    y = n - x - 1
+for index in range(1, n//2, 2):
+    opp_index = n - index - 1
 
-    chars[x], chars[y] = chars[y], chars[x]
+    chars[index], chars[opp_index] = chars[opp_index], chars[index]
 
 decrypted_message = ''.join(chars)
 print(decrypted_message)
